@@ -9,6 +9,6 @@ public class Main {
 
     }
     Griff [] griffs = {
-            new Griff ("Гарри Поттер",)
-    }
+            new Griff ("Гарри Поттер",3)
+    };
 }

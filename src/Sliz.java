@@ -22,4 +22,5 @@ public class Sliz {
     public int getStrong() {
         return strong;
     }
+
 }

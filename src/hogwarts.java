@@ -22,5 +22,6 @@ public class hogwarts {
     public int getTrans() {
         return trans;
     }
+
 }
 

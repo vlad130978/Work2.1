@@ -22,4 +22,5 @@ public class Kogtev {
     public int getStrong() {
         return strong;
     }
+
 }

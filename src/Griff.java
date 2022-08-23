@@ -22,4 +22,5 @@ public class Griff {
     public int getStrong() {
         return strong;
     }
+
 }

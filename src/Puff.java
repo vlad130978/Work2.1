@@ -22,4 +22,5 @@ public class Puff {
     public int getStrong() {
         return strong;
     }
+
 }
