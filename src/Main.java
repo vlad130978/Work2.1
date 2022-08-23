@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        new hogwarts(1,1);
-        new hogwarts(2,2);
-        new hogwarts(3,3);
+        new Hogwarts(1,1);
+        new Hogwarts(2,2);
+        new Hogwarts(3,3);
 
 
 
