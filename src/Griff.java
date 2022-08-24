@@ -1,26 +1,54 @@
-public class Griff {
-    private String name;
-    private int strong;
+public class Griff extends Hogwarts {
+    private int blagorod;
+    private int chest;
+    private int chrabr;
 
-    public Griff(String name, int strong) {
-        this.name = name;
-        this.strong = strong;
+    public Griff(String name, int magic, int trans, int blagorod, int chest, int chrabr) {
+        super(name, magic, trans);
+        this.blagorod = blagorod;
+        this.chest = chest;
+        this.chrabr = chrabr;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public int getBlagorod() {
+        return blagorod;
     }
 
-    public void setStrong(int strong) {
-        this.strong = strong;
+    public int getChest() {
+        return chest;
     }
 
-    public String getName() {
-        return name;
+    public int getChrabr() {
+        return chrabr;
     }
 
-    public int getStrong() {
-        return strong;
+    public void setBlagorod(int blagorod) {
+        this.blagorod = blagorod;
     }
 
+    public void setChest(int chest) {
+        this.chest = chest;
+    }
+
+    public void setChrabr(int chrabr) {
+        this.chrabr = chrabr;
+    }
+    private int sravni() {
+        return blagorod + chest + chrabr;
+    }
+    private void sravnigrif (Griff griff) {
+        int sravni1 = sravni();
+        int sravni2 = griff.sravni();
+        if (sravni1 > sravni2) {
+            System.out.println("Студент %s лучше чем студент %s");
+        } else if (sravni1 < sravni2) {System.out.println("Студент %s лучше чем студент %s");
+
+        }
+        else  {System.out.println("Студент %s и студент %s равны");
+
+        }
+    }
+    public String toString() {
+        return String.format("blagorod:  %s; chest:  %s; chrabr: %s", super.toString(), blagorod, chest, chrabr);
+    }
 }

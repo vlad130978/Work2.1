@@ -49,5 +49,14 @@ public abstract class Hogwarts {
 
         }
     }
+
+    @Override
+    public String toString() {
+        return String.format("Student:  %s; magic:  %d; trans: %d", name, magic, trans);
+    }
+
+    public void print() {
+        System.out.println(this);
+    }
 }
 

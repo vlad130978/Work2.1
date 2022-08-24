@@ -1,14 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        new Hogwarts(1,1);
-        new Hogwarts(2,2);
-        new Hogwarts(3,3);
+        Griff harry = new Griff("Harry Potter", 3, 3);
+        Puff sed = new Puff("Sadric Diggory",4,5);
 
-
-
+        harry.print();
+        sed.print();
 
     }
-    Griff [] griffs = {
-            new Griff ("Гарри Поттер",3)
-    };
 }
